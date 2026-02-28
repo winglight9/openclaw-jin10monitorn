@@ -52,6 +52,13 @@ $EDITOR config.json
 
 ---
 
+## 详细说明文档 / Detailed Docs
+
+- 中文：`docs/README_zh.md`
+- English：`docs/README_en.md`
+
+---
+
 ## 常见问题与排查 / Troubleshooting
 
 ### 1) 没有任何推送 / No messages are sent
