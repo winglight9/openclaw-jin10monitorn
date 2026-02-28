@@ -1,0 +1,7 @@
+{
+  "TELEGRAM_BOT_TOKEN": "<your-telegram-bot-token>",
+  "TELEGRAM_CHAT_ID": "<your-telegram-chat-id>",
+
+  "OPENCLAW_BIN": "openclaw",
+  "OPENCLAW_AI_SESSION": "jin10-ai-v4"
+}
