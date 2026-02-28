@@ -1,6 +1,6 @@
 # openclaw-jin10monitorn
 
-Jin10 () "" (important red flash news) monitor + Telegram push + structured AI analysis.
+Jin10 () "" (important red flash news) monitor + Telegram push + structured AI analysis.
 
 - Author: Kevin Qu (GitHub: winglight9)
 - Language: Chinese/English
@@ -8,17 +8,17 @@ Jin10 () "" (important red flash news) monitor + Telegram push + struct
 
 ---
 
-## 
+## 
 
-
 
-- : 
-- :  72 
-- : Telegram  (HTML )
-- :  AI  (, )
-- :  JSON health check output
 
-
+- : 
+- :  72 
+- : Telegram  (HTML )
+- :  AI  (, )
+- :  JSON health check output
+
+
 
 This repo is intended to be **safe to share**:
 - No secrets included
@@ -27,7 +27,7 @@ This repo is intended to be **safe to share**:
 
 ---
 
-##  / Key Stability Guarantees
+##  / Key Stability Guarantees
 
 1) **Telegram push does not depend on OpenClaw Gateway uptime**
    - Scraping uses Playwright headless Chromium directly.
@@ -43,9 +43,9 @@ This repo is intended to be **safe to share**:
 
 ---
 
-##  / Quick Start
+##  / Quick Start
 
-### 1) 
+### 1) 
 
 - Node.js 22+
 - Telegram bot token
@@ -59,7 +59,7 @@ npm install
 npx playwright install --with-deps chromium
 ```
 
-### 2) 
+### 2) 
 
 ```bash
 cp config.example.json config.json
@@ -74,7 +74,7 @@ node monitor.mjs
 
 ---
 
-## Telegram Chat ID 
+## Telegram Chat ID 
 
 ### Option A (Recommended): Use Telegram bot API `getUpdates`
 
@@ -94,7 +94,7 @@ You can also use any Telegram ID bot (beware privacy).
 
 ---
 
-## Run as a Daemon / 
+## Run as a Daemon / 
 
 - macOS `launchctl` guide: `docs/launchctl.md`
 
@@ -108,7 +108,7 @@ node jin10-monitor/bin/health-check.mjs
 
 ---
 
-## Repo Hygiene / 
+## Repo Hygiene / 
 
 Never commit:
 - `jin10-monitor/config.json`
